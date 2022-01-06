@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-s-ni$#@a8x&hh)4-qa0p5(*u&jm+sgsf1orovt=e-&km^moanu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','automate-email-temperature.herokuapp.com']
 
