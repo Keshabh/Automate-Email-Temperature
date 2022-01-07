@@ -134,7 +134,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'dcquaster79@gmail.com'
-EMAIL_HOST_PASSWORD = 'One,2ka,4'
+EMAIL_HOST_PASSWORD = 'txnyunlholbsguxp'
+DEFAULT_FROM_EMAIL = 'XtremeTechnology Team <noreply@xtreme.com>'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

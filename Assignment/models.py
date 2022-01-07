@@ -11,6 +11,7 @@ from django.conf import settings
 from django.core.mail import send_mail
 
 
+
 CITY_CHOICES= [
     ('mumbai', 'MUMBAI'),
     ('delhi', 'DELHI'),
@@ -45,6 +46,7 @@ class Automate_Email(models.Model):
 
 #receive the email id sent by above
 # method for updating
+
 
 @receiver(post_save, sender=Automate_Email)
 def new_user_data(sender, instance, **kwargs):
