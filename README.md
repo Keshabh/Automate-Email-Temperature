@@ -6,8 +6,8 @@ In Admin Page, there is an Automate_Email Table.
 In Automate_Email Table, we have 4 attributes, Receiver_name, Email, City(with dropdown choices between ["Mumbai, Delhi, Chennai, Banglore, Kolkata"]), Time.
 On feeding user details, it will automate email to the email id fed recently, about the temperature of the city the user has chosen, with an emoji depending upon how hot or cold temperature is.
 The email subject is: "Hi {user name}, interested in our services".
-The email body is: "{user city} TEMPERATURE: {city's current temperature} °C {emoji}
-Emoji's used:
+The email body is: "{user city} TEMPERATURE: {city's current temperature} °C {emoji}.
+\n Emoji's used:
 1. ☃️ if temperature is less than 10 degree celcius.
 2. 🥶 if temperature is gerater than 10 and less than 15 degree celcius.
 3. 🌞 if temperature is gerater than 15 and less than 25 degree celcius.
